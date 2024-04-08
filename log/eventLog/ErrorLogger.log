@@ -15,3 +15,14 @@
 {"level":"error","message":"/api/v1/user/signup user is not defined","timestamp":"2023-12-25T06:53:26.172Z"}
 {"level":"error","message":"user create employeeCheck is not defined","timestamp":"2023-12-25T07:00:14.058Z"}
 {"level":"error","message":"user create result is not defined","timestamp":"2023-12-25T07:00:45.733Z"}
+{"level":"error","message":"user create token is not defined","timestamp":"2024-04-08T09:12:23.285Z"}
+{"level":"error","message":"user create user is not defined","timestamp":"2024-04-08T09:15:44.116Z"}
+{"level":"error","message":"Order create Cannot read properties of undefined (reading 'findById')","timestamp":"2024-04-08T09:18:04.366Z"}
+{"level":"error","message":"Order create Cannot read properties of undefined (reading 'findById')","timestamp":"2024-04-08T09:18:58.023Z"}
+{"level":"error","message":"Order create Cannot read properties of undefined (reading 'findById')","timestamp":"2024-04-08T09:19:21.603Z"}
+{"level":"error","message":"Order create User is not defined","timestamp":"2024-04-08T09:20:03.644Z"}
+{"level":"error","message":"Order create Cannot read properties of undefined (reading 'findById')","timestamp":"2024-04-08T09:20:37.023Z"}
+{"level":"error","message":"Order create Cannot read properties of undefined (reading 'findById')","timestamp":"2024-04-08T09:20:53.227Z"}
+{"level":"error","message":"Order create Cannot read properties of undefined (reading 'findOne')","timestamp":"2024-04-08T09:22:01.160Z"}
+{"level":"error","message":"Order create Cannot read properties of undefined (reading 'findOne')","timestamp":"2024-04-08T09:22:17.899Z"}
+{"level":"error","message":"updateOrderInformation password is not defined","timestamp":"2024-04-08T09:45:44.846Z"}

@@ -9,17 +9,16 @@ router.post("/signup", user.signup);
 //http://localhost:5000/api/v1/user/login
 router.post("/login", user.login);
 
-
 //http://localhost:5000/api/v1/user/
 router.get("/", verifyToken, authorization("super_admin", "admin"), user.getAllUsers);
 
 //http://localhost:5000/api/v1/user/:id
 router.get("/:id", verifyToken, authorization("super_admin", "admin"), user.getSingleUser);
 
-//http://localhost:5000/api/v1/user/:id 
+//http://localhost:5000/api/v1/user/update/:id 
 router.put("/:id", verifyToken, authorization("super_admin", "admin"), user.updateUser);
 
-// //http://localhost:5000/api/v1/user/:id
+// //http://localhost:5000/api/v1/user/delete/:id
 router.delete("/:id", verifyToken, authorization("super_admin", "admin"), user.deleteUser);
 
 module.exports = router;

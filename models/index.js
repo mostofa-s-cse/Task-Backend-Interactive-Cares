@@ -15,7 +15,7 @@ db.sequelize
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 db.user = require("../models/users/user")(db.sequelize, DataTypes);
-// db.orders = require("../models/orders/orders")(db.sequelize, DataTypes);
+db.orders = require("../models/orders/orders")(db.sequelize, DataTypes);
 
 
 // // export

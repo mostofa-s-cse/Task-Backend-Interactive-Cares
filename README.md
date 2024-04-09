@@ -50,26 +50,26 @@ http://localhost:5000/api/v1/user/signup
 http://localhost:5000/api/v1/user/login
 ![alt text](image-7.png)
 
-3. Create Oders Post Api with Bearer Token.
+3. Create Oders Post Api.
 http://localhost:5000/api/v1/orders/create
 ![alt text](image.png) 
 
-4. GetAll Oders Get Api with Bearer Token.
+4. GetAll Oders Get Api.
 http://localhost:5000/api/v1/orders
 ![alt text](image-1.png)
 
-5. GetSingle Oders Get Api with Bearer Token.
+5. GetSingle Oders Get Api.
 http://localhost:5000/api/v1/orders/:id
 ![alt text](image-2.png)
 
-6. Update Oders put Api with Bearer Token.
+6. Update Oders put Api.
 http://localhost:5000/api/v1/orders/update/:id
 ![alt text](image-3.png)
 
-7. Update Oders patch Api with Bearer Token.
+7. Update Oders patch Api.
 http://localhost:5000/api/v1/orders/update/:id
 ![alt text](image-4.png)
 
-8. Delete Oders delete Api with Bearer Token.
+8. Delete Oders delete Api.
 http://localhost:5000/api/v1/orders/delete/:id
 ![alt text](image-5.png)
